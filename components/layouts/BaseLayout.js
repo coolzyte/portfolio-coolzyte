@@ -3,7 +3,7 @@ import Header from "../shared/Header";
 const BaseLayout = props => {
   return (
     <React.Fragment>
-      <Header />
+      <Header title="I am the Title" />
       {props.children}
     </React.Fragment>
   );
